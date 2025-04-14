@@ -1,0 +1,4089 @@
+{
+  "meals": [
+    {
+      "meal_code": 1,
+      "meal_dt": "2025-03-13 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 694.55,
+      "meal_carbs": 55.83,
+      "meal_sugar": 12.97,
+      "meal_protein": 47.63,
+      "meal_fat": 12.08,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 1,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 1,
+          "meal_food_cnt": 1.4
+        },
+        {
+          "meal_food_code": 2,
+          "meal_food_type": "USERDATA",
+          "meal_code": 1,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 3,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 1,
+          "meal_food_cnt": 1
+        }
+      ],
+      "id": "a729",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 2,
+      "meal_dt": "2025-03-13 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 755.18,
+      "meal_carbs": 74.14,
+      "meal_sugar": 16.09,
+      "meal_protein": 43.75,
+      "meal_fat": 29.88,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 4,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 2,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 5,
+          "meal_food_type": "USERDATA",
+          "meal_code": 2,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 6,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 2,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 7,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 2,
+          "meal_food_cnt": 3
+        }
+      ],
+      "id": "2c9c",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 3,
+      "meal_dt": "2025-03-13 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 466.98,
+      "meal_carbs": 72.24,
+      "meal_sugar": 17.73,
+      "meal_protein": 39.81,
+      "meal_fat": 31.36,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 8,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 3,
+          "meal_food_cnt": 1.8
+        },
+        {
+          "meal_food_code": 9,
+          "meal_food_type": "USERDATA",
+          "meal_code": 3,
+          "meal_food_cnt": 2.5
+        }
+      ],
+      "id": "5407",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 4,
+      "meal_dt": "2025-03-14 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "외식",
+      "meal_calories": 641.77,
+      "meal_carbs": 56.78,
+      "meal_sugar": 13.96,
+      "meal_protein": 23.97,
+      "meal_fat": 17.32,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 10,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 4,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 11,
+          "meal_food_type": "USERDATA",
+          "meal_code": 4,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 12,
+          "meal_food_type": "USERDATA",
+          "meal_code": 4,
+          "meal_food_cnt": 1.2
+        }
+      ],
+      "id": "c683",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 5,
+      "meal_dt": "2025-03-14 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 441.92,
+      "meal_carbs": 87.02,
+      "meal_sugar": 23.87,
+      "meal_protein": 21.49,
+      "meal_fat": 32.39,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 13,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 5,
+          "meal_food_cnt": 1.4
+        },
+        {
+          "meal_food_code": 14,
+          "meal_food_type": "USERDATA",
+          "meal_code": 5,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 15,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 5,
+          "meal_food_cnt": 2.4
+        }
+      ],
+      "id": "5de7",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 6,
+      "meal_dt": "2025-03-14 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 781.02,
+      "meal_carbs": 95.89,
+      "meal_sugar": 24.64,
+      "meal_protein": 36.11,
+      "meal_fat": 11.81,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 16,
+          "meal_food_type": "USERDATA",
+          "meal_code": 6,
+          "meal_food_cnt": 2.9
+        },
+        {
+          "meal_food_code": 17,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 6,
+          "meal_food_cnt": 2.9
+        },
+        {
+          "meal_food_code": 18,
+          "meal_food_type": "USERDATA",
+          "meal_code": 6,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 19,
+          "meal_food_type": "USERDATA",
+          "meal_code": 6,
+          "meal_food_cnt": 1.3
+        }
+      ],
+      "id": "5b7b",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 7,
+      "meal_dt": "2025-03-15 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "외식",
+      "meal_calories": 316.24,
+      "meal_carbs": 41.71,
+      "meal_sugar": 8.92,
+      "meal_protein": 36.31,
+      "meal_fat": 32.34,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 20,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 7,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 21,
+          "meal_food_type": "USERDATA",
+          "meal_code": 7,
+          "meal_food_cnt": 1.1
+        },
+        {
+          "meal_food_code": 22,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 7,
+          "meal_food_cnt": 1.5
+        },
+        {
+          "meal_food_code": 23,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 7,
+          "meal_food_cnt": 2
+        }
+      ],
+      "id": "b1fb",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 8,
+      "meal_dt": "2025-03-15 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "건강식",
+      "meal_calories": 743.28,
+      "meal_carbs": 52.08,
+      "meal_sugar": 10.51,
+      "meal_protein": 55.02,
+      "meal_fat": 18.74,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 24,
+          "meal_food_type": "USERDATA",
+          "meal_code": 8,
+          "meal_food_cnt": 1.1
+        },
+        {
+          "meal_food_code": 25,
+          "meal_food_type": "USERDATA",
+          "meal_code": 8,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 26,
+          "meal_food_type": "USERDATA",
+          "meal_code": 8,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 27,
+          "meal_food_type": "USERDATA",
+          "meal_code": 8,
+          "meal_food_cnt": 1.8
+        }
+      ],
+      "id": "d6cf",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 9,
+      "meal_dt": "2025-03-15 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 483.05,
+      "meal_carbs": 34.75,
+      "meal_sugar": 11.36,
+      "meal_protein": 41.45,
+      "meal_fat": 30.25,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 28,
+          "meal_food_type": "USERDATA",
+          "meal_code": 9,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 29,
+          "meal_food_type": "USERDATA",
+          "meal_code": 9,
+          "meal_food_cnt": 2.6
+        }
+      ],
+      "id": "fd71",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 10,
+      "meal_dt": "2025-03-16 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 388.39,
+      "meal_carbs": 83.43,
+      "meal_sugar": 9.26,
+      "meal_protein": 41.14,
+      "meal_fat": 15.05,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 30,
+          "meal_food_type": "USERDATA",
+          "meal_code": 10,
+          "meal_food_cnt": 1
+        },
+        {
+          "meal_food_code": 31,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 10,
+          "meal_food_cnt": 2.1
+        }
+      ],
+      "id": "b7bc",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 11,
+      "meal_dt": "2025-03-16 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "건강식",
+      "meal_calories": 561.55,
+      "meal_carbs": 98.17,
+      "meal_sugar": 5.81,
+      "meal_protein": 32.68,
+      "meal_fat": 10.54,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 32,
+          "meal_food_type": "USERDATA",
+          "meal_code": 11,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 33,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 11,
+          "meal_food_cnt": 1.2
+        }
+      ],
+      "id": "0fde",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 12,
+      "meal_dt": "2025-03-16 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "건강식",
+      "meal_calories": 792.45,
+      "meal_carbs": 65.6,
+      "meal_sugar": 18.32,
+      "meal_protein": 35.2,
+      "meal_fat": 28.04,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 34,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 12,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 35,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 12,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 36,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 12,
+          "meal_food_cnt": 2.3
+        }
+      ],
+      "id": "ff0d",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 13,
+      "meal_dt": "2025-03-17 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "건강식",
+      "meal_calories": 580.3,
+      "meal_carbs": 81.28,
+      "meal_sugar": 7.83,
+      "meal_protein": 43.37,
+      "meal_fat": 21.57,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 37,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 13,
+          "meal_food_cnt": 1.8
+        },
+        {
+          "meal_food_code": 38,
+          "meal_food_type": "USERDATA",
+          "meal_code": 13,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 39,
+          "meal_food_type": "USERDATA",
+          "meal_code": 13,
+          "meal_food_cnt": 1.5
+        },
+        {
+          "meal_food_code": 40,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 13,
+          "meal_food_cnt": 2.8
+        }
+      ],
+      "id": "3592",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 14,
+      "meal_dt": "2025-03-17 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 388.17,
+      "meal_carbs": 51.96,
+      "meal_sugar": 20.72,
+      "meal_protein": 45,
+      "meal_fat": 25.74,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 41,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 14,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 42,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 14,
+          "meal_food_cnt": 2.2
+        }
+      ],
+      "id": "f301",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 15,
+      "meal_dt": "2025-03-17 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 308.06,
+      "meal_carbs": 71.99,
+      "meal_sugar": 17.69,
+      "meal_protein": 29.35,
+      "meal_fat": 24.21,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 43,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 15,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 44,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 15,
+          "meal_food_cnt": 1.6
+        }
+      ],
+      "id": "0b03",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 16,
+      "meal_dt": "2025-03-18 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 469.71,
+      "meal_carbs": 78.42,
+      "meal_sugar": 9.05,
+      "meal_protein": 38.86,
+      "meal_fat": 32.18,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 45,
+          "meal_food_type": "USERDATA",
+          "meal_code": 16,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 46,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 16,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 47,
+          "meal_food_type": "USERDATA",
+          "meal_code": 16,
+          "meal_food_cnt": 2.5
+        }
+      ],
+      "id": "bd1d",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 17,
+      "meal_dt": "2025-03-18 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 471.47,
+      "meal_carbs": 30.69,
+      "meal_sugar": 16.91,
+      "meal_protein": 59.54,
+      "meal_fat": 14.04,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 48,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 17,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 49,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 17,
+          "meal_food_cnt": 1.1
+        }
+      ],
+      "id": "7e3c",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 18,
+      "meal_dt": "2025-03-18 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "외식",
+      "meal_calories": 663.6,
+      "meal_carbs": 54.02,
+      "meal_sugar": 16.43,
+      "meal_protein": 59.42,
+      "meal_fat": 16.72,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 50,
+          "meal_food_type": "USERDATA",
+          "meal_code": 18,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 51,
+          "meal_food_type": "USERDATA",
+          "meal_code": 18,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 52,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 18,
+          "meal_food_cnt": 1.4
+        }
+      ],
+      "id": "cbd5",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 19,
+      "meal_dt": "2025-03-19 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 771.46,
+      "meal_carbs": 91.69,
+      "meal_sugar": 22.65,
+      "meal_protein": 46.71,
+      "meal_fat": 34.99,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 53,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 19,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 54,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 19,
+          "meal_food_cnt": 2.3
+        }
+      ],
+      "id": "13f9",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 20,
+      "meal_dt": "2025-03-19 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "외식",
+      "meal_calories": 729.72,
+      "meal_carbs": 50.99,
+      "meal_sugar": 5.24,
+      "meal_protein": 54.14,
+      "meal_fat": 34.06,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 55,
+          "meal_food_type": "USERDATA",
+          "meal_code": 20,
+          "meal_food_cnt": 2.2
+        },
+        {
+          "meal_food_code": 56,
+          "meal_food_type": "USERDATA",
+          "meal_code": 20,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 57,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 20,
+          "meal_food_cnt": 1.5
+        }
+      ],
+      "id": "ff38",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 21,
+      "meal_dt": "2025-03-19 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "외식",
+      "meal_calories": 597.12,
+      "meal_carbs": 74.45,
+      "meal_sugar": 20.59,
+      "meal_protein": 36.13,
+      "meal_fat": 32.36,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 58,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 21,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 59,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 21,
+          "meal_food_cnt": 2.2
+        },
+        {
+          "meal_food_code": 60,
+          "meal_food_type": "USERDATA",
+          "meal_code": 21,
+          "meal_food_cnt": 2.8
+        },
+        {
+          "meal_food_code": 61,
+          "meal_food_type": "USERDATA",
+          "meal_code": 21,
+          "meal_food_cnt": 2.6
+        }
+      ],
+      "id": "2947",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 22,
+      "meal_dt": "2025-03-20 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "외식",
+      "meal_calories": 428.95,
+      "meal_carbs": 79.25,
+      "meal_sugar": 5.21,
+      "meal_protein": 29.7,
+      "meal_fat": 13.16,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 62,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 22,
+          "meal_food_cnt": 2.2
+        },
+        {
+          "meal_food_code": 63,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 22,
+          "meal_food_cnt": 1
+        },
+        {
+          "meal_food_code": 64,
+          "meal_food_type": "USERDATA",
+          "meal_code": 22,
+          "meal_food_cnt": 2.2
+        },
+        {
+          "meal_food_code": 65,
+          "meal_food_type": "USERDATA",
+          "meal_code": 22,
+          "meal_food_cnt": 2.1
+        }
+      ],
+      "id": "0e82",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 23,
+      "meal_dt": "2025-03-20 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 594.33,
+      "meal_carbs": 30.27,
+      "meal_sugar": 16.75,
+      "meal_protein": 41.65,
+      "meal_fat": 21.41,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 66,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 23,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 67,
+          "meal_food_type": "USERDATA",
+          "meal_code": 23,
+          "meal_food_cnt": 1.7
+        }
+      ],
+      "id": "c0d1",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 24,
+      "meal_dt": "2025-03-20 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 685.73,
+      "meal_carbs": 91.7,
+      "meal_sugar": 12.77,
+      "meal_protein": 37.07,
+      "meal_fat": 29.95,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 68,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 24,
+          "meal_food_cnt": 2
+        },
+        {
+          "meal_food_code": 69,
+          "meal_food_type": "USERDATA",
+          "meal_code": 24,
+          "meal_food_cnt": 2
+        },
+        {
+          "meal_food_code": 70,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 24,
+          "meal_food_cnt": 1.8
+        },
+        {
+          "meal_food_code": 71,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 24,
+          "meal_food_cnt": 2.8
+        }
+      ],
+      "id": "e23d",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 25,
+      "meal_dt": "2025-03-21 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 396.4,
+      "meal_carbs": 99.39,
+      "meal_sugar": 14.65,
+      "meal_protein": 59.19,
+      "meal_fat": 11.05,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 72,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 25,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 73,
+          "meal_food_type": "USERDATA",
+          "meal_code": 25,
+          "meal_food_cnt": 1.7
+        }
+      ],
+      "id": "9ba2",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 26,
+      "meal_dt": "2025-03-21 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 728.35,
+      "meal_carbs": 66.34,
+      "meal_sugar": 18.46,
+      "meal_protein": 23.82,
+      "meal_fat": 33.3,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 74,
+          "meal_food_type": "USERDATA",
+          "meal_code": 26,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 75,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 26,
+          "meal_food_cnt": 2.5
+        }
+      ],
+      "id": "ea44",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 27,
+      "meal_dt": "2025-03-21 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 556.5,
+      "meal_carbs": 49.77,
+      "meal_sugar": 24.23,
+      "meal_protein": 56.32,
+      "meal_fat": 26.78,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 76,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 27,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 77,
+          "meal_food_type": "USERDATA",
+          "meal_code": 27,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 78,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 27,
+          "meal_food_cnt": 2.1
+        }
+      ],
+      "id": "dfae",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 28,
+      "meal_dt": "2025-03-22 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 713.01,
+      "meal_carbs": 98.86,
+      "meal_sugar": 7.89,
+      "meal_protein": 44.95,
+      "meal_fat": 14.3,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 79,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 28,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 80,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 28,
+          "meal_food_cnt": 2.6
+        },
+        {
+          "meal_food_code": 81,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 28,
+          "meal_food_cnt": 1.5
+        },
+        {
+          "meal_food_code": 82,
+          "meal_food_type": "USERDATA",
+          "meal_code": 28,
+          "meal_food_cnt": 2
+        }
+      ],
+      "id": "4c08",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 29,
+      "meal_dt": "2025-03-22 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 677.14,
+      "meal_carbs": 36.38,
+      "meal_sugar": 10.24,
+      "meal_protein": 26.27,
+      "meal_fat": 25.94,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 83,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 29,
+          "meal_food_cnt": 2
+        },
+        {
+          "meal_food_code": 84,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 29,
+          "meal_food_cnt": 1.9
+        }
+      ],
+      "id": "bee1",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 30,
+      "meal_dt": "2025-03-22 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 469.46,
+      "meal_carbs": 37.15,
+      "meal_sugar": 13.69,
+      "meal_protein": 52.92,
+      "meal_fat": 17.97,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 85,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 30,
+          "meal_food_cnt": 1.5
+        },
+        {
+          "meal_food_code": 86,
+          "meal_food_type": "USERDATA",
+          "meal_code": 30,
+          "meal_food_cnt": 1.1
+        },
+        {
+          "meal_food_code": 87,
+          "meal_food_type": "USERDATA",
+          "meal_code": 30,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 88,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 30,
+          "meal_food_cnt": 1.6
+        }
+      ],
+      "id": "0496",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 31,
+      "meal_dt": "2025-03-23 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 368.49,
+      "meal_carbs": 77.36,
+      "meal_sugar": 15.28,
+      "meal_protein": 33.39,
+      "meal_fat": 30.22,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 89,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 31,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 90,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 31,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 91,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 31,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 92,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 31,
+          "meal_food_cnt": 2.3
+        }
+      ],
+      "id": "85e1",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 32,
+      "meal_dt": "2025-03-23 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 350.2,
+      "meal_carbs": 37.19,
+      "meal_sugar": 23.13,
+      "meal_protein": 53.14,
+      "meal_fat": 19.5,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 93,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 32,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 94,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 32,
+          "meal_food_cnt": 2.8
+        },
+        {
+          "meal_food_code": 95,
+          "meal_food_type": "USERDATA",
+          "meal_code": 32,
+          "meal_food_cnt": 2.9
+        },
+        {
+          "meal_food_code": 96,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 32,
+          "meal_food_cnt": 2.8
+        }
+      ],
+      "id": "10fd",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 33,
+      "meal_dt": "2025-03-23 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "건강식",
+      "meal_calories": 742.45,
+      "meal_carbs": 78.05,
+      "meal_sugar": 15.09,
+      "meal_protein": 31.61,
+      "meal_fat": 20.85,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 97,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 33,
+          "meal_food_cnt": 2.8
+        },
+        {
+          "meal_food_code": 98,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 33,
+          "meal_food_cnt": 1.5
+        },
+        {
+          "meal_food_code": 99,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 33,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 100,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 33,
+          "meal_food_cnt": 2.2
+        }
+      ],
+      "id": "9633",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 34,
+      "meal_dt": "2025-03-24 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 579.74,
+      "meal_carbs": 70.46,
+      "meal_sugar": 6.47,
+      "meal_protein": 44.19,
+      "meal_fat": 21.39,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 101,
+          "meal_food_type": "USERDATA",
+          "meal_code": 34,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 102,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 34,
+          "meal_food_cnt": 2.1
+        },
+        {
+          "meal_food_code": 103,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 34,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 104,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 34,
+          "meal_food_cnt": 1.7
+        }
+      ],
+      "id": "682a",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 35,
+      "meal_dt": "2025-03-24 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 669.65,
+      "meal_carbs": 42.18,
+      "meal_sugar": 12.65,
+      "meal_protein": 59.96,
+      "meal_fat": 26.38,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 105,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 35,
+          "meal_food_cnt": 2.1
+        },
+        {
+          "meal_food_code": 106,
+          "meal_food_type": "USERDATA",
+          "meal_code": 35,
+          "meal_food_cnt": 1.4
+        },
+        {
+          "meal_food_code": 107,
+          "meal_food_type": "USERDATA",
+          "meal_code": 35,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 108,
+          "meal_food_type": "USERDATA",
+          "meal_code": 35,
+          "meal_food_cnt": 2.6
+        }
+      ],
+      "id": "6794",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 36,
+      "meal_dt": "2025-03-24 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "외식",
+      "meal_calories": 370.81,
+      "meal_carbs": 72.54,
+      "meal_sugar": 17.32,
+      "meal_protein": 42.27,
+      "meal_fat": 34.43,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 109,
+          "meal_food_type": "USERDATA",
+          "meal_code": 36,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 110,
+          "meal_food_type": "USERDATA",
+          "meal_code": 36,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 111,
+          "meal_food_type": "USERDATA",
+          "meal_code": 36,
+          "meal_food_cnt": 2.7
+        }
+      ],
+      "id": "4f51",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 37,
+      "meal_dt": "2025-03-25 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 533.5,
+      "meal_carbs": 99.43,
+      "meal_sugar": 15.25,
+      "meal_protein": 25.68,
+      "meal_fat": 16.77,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 112,
+          "meal_food_type": "USERDATA",
+          "meal_code": 37,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 113,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 37,
+          "meal_food_cnt": 2.1
+        },
+        {
+          "meal_food_code": 114,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 37,
+          "meal_food_cnt": 1
+        }
+      ],
+      "id": "f0e3",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 38,
+      "meal_dt": "2025-03-25 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "건강식",
+      "meal_calories": 745.67,
+      "meal_carbs": 60.79,
+      "meal_sugar": 6.1,
+      "meal_protein": 32.39,
+      "meal_fat": 11.3,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 115,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 38,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 116,
+          "meal_food_type": "USERDATA",
+          "meal_code": 38,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 117,
+          "meal_food_type": "USERDATA",
+          "meal_code": 38,
+          "meal_food_cnt": 2.1
+        }
+      ],
+      "id": "9731",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 39,
+      "meal_dt": "2025-03-25 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 626.45,
+      "meal_carbs": 30.44,
+      "meal_sugar": 18.32,
+      "meal_protein": 48.17,
+      "meal_fat": 17.09,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 118,
+          "meal_food_type": "USERDATA",
+          "meal_code": 39,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 119,
+          "meal_food_type": "USERDATA",
+          "meal_code": 39,
+          "meal_food_cnt": 1.4
+        }
+      ],
+      "id": "8322",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 40,
+      "meal_dt": "2025-03-26 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 507.71,
+      "meal_carbs": 40.17,
+      "meal_sugar": 15.19,
+      "meal_protein": 55.36,
+      "meal_fat": 30.02,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 120,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 40,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 121,
+          "meal_food_type": "USERDATA",
+          "meal_code": 40,
+          "meal_food_cnt": 1.4
+        },
+        {
+          "meal_food_code": 122,
+          "meal_food_type": "USERDATA",
+          "meal_code": 40,
+          "meal_food_cnt": 1.4
+        }
+      ],
+      "id": "b212",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 41,
+      "meal_dt": "2025-03-26 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "외식",
+      "meal_calories": 404.42,
+      "meal_carbs": 80.37,
+      "meal_sugar": 20.19,
+      "meal_protein": 39.92,
+      "meal_fat": 34.89,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 123,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 41,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 124,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 41,
+          "meal_food_cnt": 1
+        },
+        {
+          "meal_food_code": 125,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 41,
+          "meal_food_cnt": 2.6
+        },
+        {
+          "meal_food_code": 126,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 41,
+          "meal_food_cnt": 1.8
+        }
+      ],
+      "id": "4f4f",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 42,
+      "meal_dt": "2025-03-26 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 336.18,
+      "meal_carbs": 37.3,
+      "meal_sugar": 5.74,
+      "meal_protein": 56.85,
+      "meal_fat": 29.91,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 127,
+          "meal_food_type": "USERDATA",
+          "meal_code": 42,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 128,
+          "meal_food_type": "USERDATA",
+          "meal_code": 42,
+          "meal_food_cnt": 2.6
+        }
+      ],
+      "id": "45de",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 43,
+      "meal_dt": "2025-03-27 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 668.16,
+      "meal_carbs": 52.01,
+      "meal_sugar": 12.29,
+      "meal_protein": 24.65,
+      "meal_fat": 26.1,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 129,
+          "meal_food_type": "USERDATA",
+          "meal_code": 43,
+          "meal_food_cnt": 2
+        },
+        {
+          "meal_food_code": 130,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 43,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 131,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 43,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 132,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 43,
+          "meal_food_cnt": 1.5
+        }
+      ],
+      "id": "0eb7",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 44,
+      "meal_dt": "2025-03-27 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 545.29,
+      "meal_carbs": 31.08,
+      "meal_sugar": 22.78,
+      "meal_protein": 36.5,
+      "meal_fat": 20.09,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 133,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 44,
+          "meal_food_cnt": 2.6
+        },
+        {
+          "meal_food_code": 134,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 44,
+          "meal_food_cnt": 2.9
+        },
+        {
+          "meal_food_code": 135,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 44,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 136,
+          "meal_food_type": "USERDATA",
+          "meal_code": 44,
+          "meal_food_cnt": 1.8
+        }
+      ],
+      "id": "966e",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 45,
+      "meal_dt": "2025-03-27 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 772.32,
+      "meal_carbs": 65.66,
+      "meal_sugar": 17.87,
+      "meal_protein": 34.74,
+      "meal_fat": 25.42,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 137,
+          "meal_food_type": "USERDATA",
+          "meal_code": 45,
+          "meal_food_cnt": 1.8
+        },
+        {
+          "meal_food_code": 138,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 45,
+          "meal_food_cnt": 2
+        }
+      ],
+      "id": "cefc",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 46,
+      "meal_dt": "2025-03-28 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 322.79,
+      "meal_carbs": 68.6,
+      "meal_sugar": 14.42,
+      "meal_protein": 35.57,
+      "meal_fat": 32.67,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 139,
+          "meal_food_type": "USERDATA",
+          "meal_code": 46,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 140,
+          "meal_food_type": "USERDATA",
+          "meal_code": 46,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 141,
+          "meal_food_type": "USERDATA",
+          "meal_code": 46,
+          "meal_food_cnt": 2.4
+        }
+      ],
+      "id": "c6c8",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 47,
+      "meal_dt": "2025-03-28 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 447.48,
+      "meal_carbs": 46.1,
+      "meal_sugar": 16.49,
+      "meal_protein": 24.67,
+      "meal_fat": 13.24,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 142,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 47,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 143,
+          "meal_food_type": "USERDATA",
+          "meal_code": 47,
+          "meal_food_cnt": 2
+        }
+      ],
+      "id": "6ba9",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 48,
+      "meal_dt": "2025-03-28 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "건강식",
+      "meal_calories": 654.63,
+      "meal_carbs": 51.76,
+      "meal_sugar": 6.73,
+      "meal_protein": 53.07,
+      "meal_fat": 24.34,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 144,
+          "meal_food_type": "USERDATA",
+          "meal_code": 48,
+          "meal_food_cnt": 2
+        },
+        {
+          "meal_food_code": 145,
+          "meal_food_type": "USERDATA",
+          "meal_code": 48,
+          "meal_food_cnt": 2.6
+        }
+      ],
+      "id": "aac0",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 49,
+      "meal_dt": "2025-03-29 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 339.54,
+      "meal_carbs": 60.74,
+      "meal_sugar": 18.57,
+      "meal_protein": 59.32,
+      "meal_fat": 29.34,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 146,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 49,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 147,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 49,
+          "meal_food_cnt": 1.1
+        }
+      ],
+      "id": "d14f",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 50,
+      "meal_dt": "2025-03-29 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 353.48,
+      "meal_carbs": 65.64,
+      "meal_sugar": 16.86,
+      "meal_protein": 38.13,
+      "meal_fat": 27.78,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 148,
+          "meal_food_type": "USERDATA",
+          "meal_code": 50,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 149,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 50,
+          "meal_food_cnt": 1.8
+        }
+      ],
+      "id": "0bfc",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 51,
+      "meal_dt": "2025-03-29 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "건강식",
+      "meal_calories": 535.96,
+      "meal_carbs": 66.53,
+      "meal_sugar": 13.23,
+      "meal_protein": 48.72,
+      "meal_fat": 15.73,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 150,
+          "meal_food_type": "USERDATA",
+          "meal_code": 51,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 151,
+          "meal_food_type": "USERDATA",
+          "meal_code": 51,
+          "meal_food_cnt": 1.2
+        }
+      ],
+      "id": "0435",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 52,
+      "meal_dt": "2025-03-30 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "외식",
+      "meal_calories": 528.89,
+      "meal_carbs": 68.82,
+      "meal_sugar": 7.29,
+      "meal_protein": 32.28,
+      "meal_fat": 30.06,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 152,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 52,
+          "meal_food_cnt": 2.9
+        },
+        {
+          "meal_food_code": 153,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 52,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 154,
+          "meal_food_type": "USERDATA",
+          "meal_code": 52,
+          "meal_food_cnt": 1.4
+        },
+        {
+          "meal_food_code": 155,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 52,
+          "meal_food_cnt": 2.9
+        }
+      ],
+      "id": "4f97",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 53,
+      "meal_dt": "2025-03-30 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "외식",
+      "meal_calories": 517.42,
+      "meal_carbs": 44.56,
+      "meal_sugar": 8.59,
+      "meal_protein": 55,
+      "meal_fat": 19.75,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 156,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 53,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 157,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 53,
+          "meal_food_cnt": 2.5
+        }
+      ],
+      "id": "4f25",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 54,
+      "meal_dt": "2025-03-30 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "건강식",
+      "meal_calories": 393.95,
+      "meal_carbs": 85.27,
+      "meal_sugar": 14.58,
+      "meal_protein": 50.65,
+      "meal_fat": 14.15,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 158,
+          "meal_food_type": "USERDATA",
+          "meal_code": 54,
+          "meal_food_cnt": 1.5
+        },
+        {
+          "meal_food_code": 159,
+          "meal_food_type": "USERDATA",
+          "meal_code": 54,
+          "meal_food_cnt": 1.2
+        }
+      ],
+      "id": "ce8c",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 55,
+      "meal_dt": "2025-03-31 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "건강식",
+      "meal_calories": 739.44,
+      "meal_carbs": 74.91,
+      "meal_sugar": 5.18,
+      "meal_protein": 30.98,
+      "meal_fat": 23.68,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 160,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 55,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 161,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 55,
+          "meal_food_cnt": 1.4
+        }
+      ],
+      "id": "87f8",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 56,
+      "meal_dt": "2025-03-31 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 433.27,
+      "meal_carbs": 64.55,
+      "meal_sugar": 13.77,
+      "meal_protein": 43.67,
+      "meal_fat": 30.94,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 162,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 56,
+          "meal_food_cnt": 2.2
+        },
+        {
+          "meal_food_code": 163,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 56,
+          "meal_food_cnt": 2.1
+        },
+        {
+          "meal_food_code": 164,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 56,
+          "meal_food_cnt": 2.8
+        },
+        {
+          "meal_food_code": 165,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 56,
+          "meal_food_cnt": 1.9
+        }
+      ],
+      "id": "a04c",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 57,
+      "meal_dt": "2025-03-31 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "외식",
+      "meal_calories": 663.59,
+      "meal_carbs": 70.25,
+      "meal_sugar": 22.29,
+      "meal_protein": 50.81,
+      "meal_fat": 19.88,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 166,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 57,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 167,
+          "meal_food_type": "USERDATA",
+          "meal_code": 57,
+          "meal_food_cnt": 1.5
+        },
+        {
+          "meal_food_code": 168,
+          "meal_food_type": "USERDATA",
+          "meal_code": 57,
+          "meal_food_cnt": 1.5
+        }
+      ],
+      "id": "dcde",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 58,
+      "meal_dt": "2025-04-01 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "외식",
+      "meal_calories": 346.8,
+      "meal_carbs": 98.23,
+      "meal_sugar": 10.3,
+      "meal_protein": 46.29,
+      "meal_fat": 30.18,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 169,
+          "meal_food_type": "USERDATA",
+          "meal_code": 58,
+          "meal_food_cnt": 1.8
+        },
+        {
+          "meal_food_code": 170,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 58,
+          "meal_food_cnt": 2.6
+        }
+      ],
+      "id": "f5c9",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 59,
+      "meal_dt": "2025-04-01 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "외식",
+      "meal_calories": 648.02,
+      "meal_carbs": 64.29,
+      "meal_sugar": 22.37,
+      "meal_protein": 35.27,
+      "meal_fat": 26.65,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 171,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 59,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 172,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 59,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 173,
+          "meal_food_type": "USERDATA",
+          "meal_code": 59,
+          "meal_food_cnt": 2.1
+        },
+        {
+          "meal_food_code": 174,
+          "meal_food_type": "USERDATA",
+          "meal_code": 59,
+          "meal_food_cnt": 2.4
+        }
+      ],
+      "id": "23de",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 60,
+      "meal_dt": "2025-04-01 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "외식",
+      "meal_calories": 319.93,
+      "meal_carbs": 39.77,
+      "meal_sugar": 7.02,
+      "meal_protein": 58.65,
+      "meal_fat": 28.51,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 175,
+          "meal_food_type": "USERDATA",
+          "meal_code": 60,
+          "meal_food_cnt": 2.6
+        },
+        {
+          "meal_food_code": 176,
+          "meal_food_type": "USERDATA",
+          "meal_code": 60,
+          "meal_food_cnt": 1
+        }
+      ],
+      "id": "5921",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 61,
+      "meal_dt": "2025-04-02 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 393.58,
+      "meal_carbs": 45.59,
+      "meal_sugar": 19.14,
+      "meal_protein": 38.05,
+      "meal_fat": 18.57,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 177,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 61,
+          "meal_food_cnt": 1.4
+        },
+        {
+          "meal_food_code": 178,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 61,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 179,
+          "meal_food_type": "USERDATA",
+          "meal_code": 61,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 180,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 61,
+          "meal_food_cnt": 1.7
+        }
+      ],
+      "id": "38cc",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 62,
+      "meal_dt": "2025-04-02 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "외식",
+      "meal_calories": 416.25,
+      "meal_carbs": 71.63,
+      "meal_sugar": 17.25,
+      "meal_protein": 24.17,
+      "meal_fat": 16.05,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 181,
+          "meal_food_type": "USERDATA",
+          "meal_code": 62,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 182,
+          "meal_food_type": "USERDATA",
+          "meal_code": 62,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 183,
+          "meal_food_type": "USERDATA",
+          "meal_code": 62,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 184,
+          "meal_food_type": "USERDATA",
+          "meal_code": 62,
+          "meal_food_cnt": 2.4
+        }
+      ],
+      "id": "7b37",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 63,
+      "meal_dt": "2025-04-02 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 570.38,
+      "meal_carbs": 69.25,
+      "meal_sugar": 6.19,
+      "meal_protein": 24.86,
+      "meal_fat": 30.98,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 185,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 63,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 186,
+          "meal_food_type": "USERDATA",
+          "meal_code": 63,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 187,
+          "meal_food_type": "USERDATA",
+          "meal_code": 63,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 188,
+          "meal_food_type": "USERDATA",
+          "meal_code": 63,
+          "meal_food_cnt": 1.1
+        }
+      ],
+      "id": "7f6b",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 64,
+      "meal_dt": "2025-04-03 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "외식",
+      "meal_calories": 342.85,
+      "meal_carbs": 94.36,
+      "meal_sugar": 23.55,
+      "meal_protein": 24.92,
+      "meal_fat": 16.87,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 189,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 64,
+          "meal_food_cnt": 2.6
+        },
+        {
+          "meal_food_code": 190,
+          "meal_food_type": "USERDATA",
+          "meal_code": 64,
+          "meal_food_cnt": 2.2
+        }
+      ],
+      "id": "0f3a",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 65,
+      "meal_dt": "2025-04-03 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 330.64,
+      "meal_carbs": 36.56,
+      "meal_sugar": 16.61,
+      "meal_protein": 42.18,
+      "meal_fat": 34.01,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 191,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 65,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 192,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 65,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 193,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 65,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 194,
+          "meal_food_type": "USERDATA",
+          "meal_code": 65,
+          "meal_food_cnt": 1.6
+        }
+      ],
+      "id": "00f3",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 66,
+      "meal_dt": "2025-04-03 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "외식",
+      "meal_calories": 727.23,
+      "meal_carbs": 80.74,
+      "meal_sugar": 11.63,
+      "meal_protein": 37.26,
+      "meal_fat": 28.29,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 195,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 66,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 196,
+          "meal_food_type": "USERDATA",
+          "meal_code": 66,
+          "meal_food_cnt": 2.8
+        }
+      ],
+      "id": "e3a0",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 67,
+      "meal_dt": "2025-04-04 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 355.46,
+      "meal_carbs": 38.37,
+      "meal_sugar": 17.3,
+      "meal_protein": 29.47,
+      "meal_fat": 21.66,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 197,
+          "meal_food_type": "USERDATA",
+          "meal_code": 67,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 198,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 67,
+          "meal_food_cnt": 1.3
+        },
+        {
+          "meal_food_code": 199,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 67,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 200,
+          "meal_food_type": "USERDATA",
+          "meal_code": 67,
+          "meal_food_cnt": 2.4
+        }
+      ],
+      "id": "b10f",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 68,
+      "meal_dt": "2025-04-04 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "외식",
+      "meal_calories": 308.01,
+      "meal_carbs": 75.59,
+      "meal_sugar": 21.5,
+      "meal_protein": 53.17,
+      "meal_fat": 28.24,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 201,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 68,
+          "meal_food_cnt": 2.3
+        },
+        {
+          "meal_food_code": 202,
+          "meal_food_type": "USERDATA",
+          "meal_code": 68,
+          "meal_food_cnt": 2.2
+        },
+        {
+          "meal_food_code": 203,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 68,
+          "meal_food_cnt": 2.9
+        }
+      ],
+      "id": "4216",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 69,
+      "meal_dt": "2025-04-04 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "외식",
+      "meal_calories": 729.09,
+      "meal_carbs": 87.16,
+      "meal_sugar": 20.55,
+      "meal_protein": 49.47,
+      "meal_fat": 18.34,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 204,
+          "meal_food_type": "USERDATA",
+          "meal_code": 69,
+          "meal_food_cnt": 3
+        },
+        {
+          "meal_food_code": 205,
+          "meal_food_type": "USERDATA",
+          "meal_code": 69,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 206,
+          "meal_food_type": "USERDATA",
+          "meal_code": 69,
+          "meal_food_cnt": 1.1
+        },
+        {
+          "meal_food_code": 207,
+          "meal_food_type": "USERDATA",
+          "meal_code": 69,
+          "meal_food_cnt": 2.9
+        }
+      ],
+      "id": "427b",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 70,
+      "meal_dt": "2025-04-05 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 518.79,
+      "meal_carbs": 41.09,
+      "meal_sugar": 6.59,
+      "meal_protein": 38.18,
+      "meal_fat": 23.81,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 208,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 70,
+          "meal_food_cnt": 1
+        },
+        {
+          "meal_food_code": 209,
+          "meal_food_type": "USERDATA",
+          "meal_code": 70,
+          "meal_food_cnt": 2.8
+        }
+      ],
+      "id": "3565",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 71,
+      "meal_dt": "2025-04-05 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "가볍게 먹음",
+      "meal_calories": 478.89,
+      "meal_carbs": 73.13,
+      "meal_sugar": 15.95,
+      "meal_protein": 54.53,
+      "meal_fat": 23.6,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 210,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 71,
+          "meal_food_cnt": 2.9
+        },
+        {
+          "meal_food_code": 211,
+          "meal_food_type": "USERDATA",
+          "meal_code": 71,
+          "meal_food_cnt": 2.4
+        }
+      ],
+      "id": "aebb",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 72,
+      "meal_dt": "2025-04-05 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 769.89,
+      "meal_carbs": 77.29,
+      "meal_sugar": 15.41,
+      "meal_protein": 42.41,
+      "meal_fat": 13.56,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 212,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 72,
+          "meal_food_cnt": 1.4
+        },
+        {
+          "meal_food_code": 213,
+          "meal_food_type": "USERDATA",
+          "meal_code": 72,
+          "meal_food_cnt": 2.9
+        }
+      ],
+      "id": "f939",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 1,
+      "meal_dt": "2025-04-06 10:30",
+      "meal_title": "파리바게트 소금빵",
+      "meal_desc": "닭가슴살, 현미밥, 양배추, 저염간장",
+      "meal_calories": 265,
+      "meal_carbs": 52,
+      "meal_sugar": 8,
+      "meal_protein": 4,
+      "meal_fat": 8,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 1,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 1.0
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 2,
+      "meal_dt": "2025-04-06 13:00",
+      "meal_title": "갈비탕",
+      "meal_desc": "갈비탕, 쌀밥 1 공기, 반찬 조금",
+      "meal_calories": 520,
+      "meal_carbs": 107,
+      "meal_sugar": 2,
+      "meal_protein": 32,
+      "meal_fat": 18,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 2,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 1.0
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 3,
+      "meal_dt": "2025-04-06 20:30",
+      "meal_title": "삼겹살",
+      "meal_desc": "삼겹살 3인분, 소주 1병, 된장찌개 1인분, 밥 1 공기",
+      "meal_calories": 1880,
+      "meal_carbs": 180,
+      "meal_sugar": 10,
+      "meal_protein": 81,
+      "meal_fat": 183,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 3,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 1.0
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 4,
+      "meal_dt": "2025-04-06 21:30",
+      "meal_title": "하겐다즈",
+      "meal_desc": "하겐다즈 딸기맛 1 개",
+      "meal_calories": 216,
+      "meal_carbs": 20,
+      "meal_sugar": 20,
+      "meal_protein": 3.6,
+      "meal_fat": 13,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 4,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 1.0
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 1002,
+      "meal_dt": "2025-04-07 07:30",
+      "meal_title": "닭가슴살 볶음밥",
+      "meal_desc": "닭가슴살, 현미밥, 양배추, 저염간장",
+      "meal_calories": 450,
+      "meal_carbs": 100,
+      "meal_sugar": 2,
+      "meal_protein": 50,
+      "meal_fat": 3,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 2001,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 1
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 1003,
+      "meal_dt": "2025-04-07 12:00",
+      "meal_title": "연어 샐러드",
+      "meal_desc": "연어, 양배추, 파프리카, 드레싱",
+      "meal_calories": 380,
+      "meal_carbs": 30,
+      "meal_sugar": 7,
+      "meal_protein": 25,
+      "meal_fat": 17,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 2002,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 1
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 1004,
+      "meal_dt": "2025-04-07 18:30",
+      "meal_title": "단백질 쉐이크",
+      "meal_desc": "단백질 파우더, 귀리가루, 우유",
+      "meal_calories": 480,
+      "meal_carbs": 80,
+      "meal_sugar": 5,
+      "meal_protein": 48,
+      "meal_fat": 15,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 2003,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 1
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 79,
+      "meal_dt": "2025-04-08 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 726.25,
+      "meal_carbs": 46.56,
+      "meal_sugar": 23.96,
+      "meal_protein": 53.36,
+      "meal_fat": 19.66,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 231,
+          "meal_food_type": "USERDATA",
+          "meal_code": 79,
+          "meal_food_cnt": 1.8
+        },
+        {
+          "meal_food_code": 232,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 79,
+          "meal_food_cnt": 2.2
+        }
+      ],
+      "id": "1639",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 80,
+      "meal_dt": "2025-04-08 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 359.46,
+      "meal_carbs": 58.66,
+      "meal_sugar": 23.97,
+      "meal_protein": 54.73,
+      "meal_fat": 18.91,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 233,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 80,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 234,
+          "meal_food_type": "USERDATA",
+          "meal_code": 80,
+          "meal_food_cnt": 1.4
+        },
+        {
+          "meal_food_code": 235,
+          "meal_food_type": "USERDATA",
+          "meal_code": 80,
+          "meal_food_cnt": 1.1
+        }
+      ],
+      "id": "9fae",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 81,
+      "meal_dt": "2025-04-08 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 513.27,
+      "meal_carbs": 36.17,
+      "meal_sugar": 22.42,
+      "meal_protein": 50.98,
+      "meal_fat": 11.64,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 236,
+          "meal_food_type": "USERDATA",
+          "meal_code": 81,
+          "meal_food_cnt": 1.1
+        },
+        {
+          "meal_food_code": 237,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 81,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 238,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 81,
+          "meal_food_cnt": 2.2
+        }
+      ],
+      "id": "5260",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 82,
+      "meal_dt": "2025-04-09 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "건강식",
+      "meal_calories": 370.83,
+      "meal_carbs": 30.63,
+      "meal_sugar": 7.8,
+      "meal_protein": 34.3,
+      "meal_fat": 21.15,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 239,
+          "meal_food_type": "USERDATA",
+          "meal_code": 82,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 240,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 82,
+          "meal_food_cnt": 2.9
+        },
+        {
+          "meal_food_code": 241,
+          "meal_food_type": "USERDATA",
+          "meal_code": 82,
+          "meal_food_cnt": 2.7
+        }
+      ],
+      "id": "9a32",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 83,
+      "meal_dt": "2025-04-09 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "외식",
+      "meal_calories": 372.4,
+      "meal_carbs": 86.19,
+      "meal_sugar": 16.96,
+      "meal_protein": 41.63,
+      "meal_fat": 14.97,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 242,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 83,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 243,
+          "meal_food_type": "USERDATA",
+          "meal_code": 83,
+          "meal_food_cnt": 2.4
+        },
+        {
+          "meal_food_code": 244,
+          "meal_food_type": "USERDATA",
+          "meal_code": 83,
+          "meal_food_cnt": 2.5
+        },
+        {
+          "meal_food_code": 245,
+          "meal_food_type": "USERDATA",
+          "meal_code": 83,
+          "meal_food_cnt": 1.1
+        }
+      ],
+      "id": "cad8",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 84,
+      "meal_dt": "2025-04-09 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 496.31,
+      "meal_carbs": 44.91,
+      "meal_sugar": 16.16,
+      "meal_protein": 34.36,
+      "meal_fat": 21.77,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 246,
+          "meal_food_type": "USERDATA",
+          "meal_code": 84,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 247,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 84,
+          "meal_food_cnt": 1.9
+        }
+      ],
+      "id": "6525",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 85,
+      "meal_dt": "2025-04-10 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "외식",
+      "meal_calories": 786.08,
+      "meal_carbs": 89.55,
+      "meal_sugar": 6.92,
+      "meal_protein": 51.27,
+      "meal_fat": 13.52,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 248,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 85,
+          "meal_food_cnt": 1.9
+        },
+        {
+          "meal_food_code": 249,
+          "meal_food_type": "USERDATA",
+          "meal_code": 85,
+          "meal_food_cnt": 1.4
+        }
+      ],
+      "id": "841a",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 86,
+      "meal_dt": "2025-04-10 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "건강식",
+      "meal_calories": 686.19,
+      "meal_carbs": 40.1,
+      "meal_sugar": 8,
+      "meal_protein": 40.54,
+      "meal_fat": 25.72,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 250,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 86,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 251,
+          "meal_food_type": "USERDATA",
+          "meal_code": 86,
+          "meal_food_cnt": 2.1
+        },
+        {
+          "meal_food_code": 252,
+          "meal_food_type": "USERDATA",
+          "meal_code": 86,
+          "meal_food_cnt": 2.3
+        }
+      ],
+      "id": "b777",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 87,
+      "meal_dt": "2025-04-10 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "다이어트 중",
+      "meal_calories": 695.91,
+      "meal_carbs": 69.22,
+      "meal_sugar": 15.31,
+      "meal_protein": 43.22,
+      "meal_fat": 20.14,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 253,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 87,
+          "meal_food_cnt": 2.9
+        },
+        {
+          "meal_food_code": 254,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 87,
+          "meal_food_cnt": 1.6
+        },
+        {
+          "meal_food_code": 255,
+          "meal_food_type": "USERDATA",
+          "meal_code": 87,
+          "meal_food_cnt": 2.2
+        },
+        {
+          "meal_food_code": 256,
+          "meal_food_type": "USERDATA",
+          "meal_code": 87,
+          "meal_food_cnt": 2.7
+        }
+      ],
+      "id": "eaf1",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 88,
+      "meal_dt": "2025-04-11 08:00:00",
+      "meal_title": "아침 식사",
+      "meal_desc": "외식",
+      "meal_calories": 719.71,
+      "meal_carbs": 70.07,
+      "meal_sugar": 13.17,
+      "meal_protein": 24.65,
+      "meal_fat": 11.44,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 257,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 88,
+          "meal_food_cnt": 1.7
+        },
+        {
+          "meal_food_code": 258,
+          "meal_food_type": "USERDATA",
+          "meal_code": 88,
+          "meal_food_cnt": 2.7
+        },
+        {
+          "meal_food_code": 259,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 88,
+          "meal_food_cnt": 1.8
+        },
+        {
+          "meal_food_code": 260,
+          "meal_food_type": "USERDATA",
+          "meal_code": 88,
+          "meal_food_cnt": 1.8
+        }
+      ],
+      "id": "b6cc",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 89,
+      "meal_dt": "2025-04-11 12:30:00",
+      "meal_title": "점심 도시락",
+      "meal_desc": "맛있고 건강한 식단",
+      "meal_calories": 332.07,
+      "meal_carbs": 84.3,
+      "meal_sugar": 19.76,
+      "meal_protein": 56.08,
+      "meal_fat": 26.8,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 261,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 89,
+          "meal_food_cnt": 2.2
+        },
+        {
+          "meal_food_code": 262,
+          "meal_food_type": "USERDATA",
+          "meal_code": 89,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 263,
+          "meal_food_type": "USERDATA",
+          "meal_code": 89,
+          "meal_food_cnt": 2.8
+        },
+        {
+          "meal_food_code": 264,
+          "meal_food_type": "OPENDATA",
+          "meal_code": 89,
+          "meal_food_cnt": 2.2
+        }
+      ],
+      "id": "6c2f",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 90,
+      "meal_dt": "2025-04-11 18:30:00",
+      "meal_title": "저녁 한상",
+      "meal_desc": "건강식",
+      "meal_calories": 603.05,
+      "meal_carbs": 33.62,
+      "meal_sugar": 5.47,
+      "meal_protein": 30.32,
+      "meal_fat": 19.71,
+      "user_code": 1001,
+      "meal_foods": [
+        {
+          "meal_food_code": 265,
+          "meal_food_type": "USERDATA",
+          "meal_code": 90,
+          "meal_food_cnt": 2.8
+        },
+        {
+          "meal_food_code": 266,
+          "meal_food_type": "USERDATA",
+          "meal_code": 90,
+          "meal_food_cnt": 1.2
+        },
+        {
+          "meal_food_code": 267,
+          "meal_food_type": "USERDATA",
+          "meal_code": 90,
+          "meal_food_cnt": 2.1
+        },
+        {
+          "meal_food_code": 268,
+          "meal_food_type": "USERDATA",
+          "meal_code": 90,
+          "meal_food_cnt": 1.9
+        }
+      ],
+      "id": "5e61",
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 91,
+      "meal_dt": "2025-04-13 07:30",
+      "meal_title": "김밥천국 김밥 2줄",
+      "meal_desc": "김밥천국 김밥(일반김밥) 2줄",
+      "meal_calories": 970,
+      "meal_carbs": 147,
+      "meal_sugar": 12,
+      "meal_protein": 24.4,
+      "meal_fat": 30.6,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 201,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 2
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 92,
+      "meal_dt": "2025-04-13 12:30",
+      "meal_title": "닭가슴살",
+      "meal_desc": "하림 닭가슴살 블랙페퍼 2 개",
+      "meal_calories": 230,
+      "meal_carbs": 2,
+      "meal_sugar": 2,
+      "meal_protein": 48,
+      "meal_fat": 3,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 202,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 2
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    },
+    {
+      "meal_code": 93,
+      "meal_dt": "2025-04-13 21:00",
+      "meal_title": "야채곱창 소주",
+      "meal_desc": "야채곱창 2 인분, 볶음밥, 소주 2병",
+      "meal_calories": 2600,
+      "meal_carbs": 190,
+      "meal_sugar": 18,
+      "meal_protein": 60,
+      "meal_fat": 118,
+      "user_code": 1001,
+      "meal_food": [
+        {
+          "meal_food_code": 203,
+          "meal_food_type": "USERDATA",
+          "meal_food_cnt": 3
+        }
+      ],
+      "file": [
+        {
+          "id": -1,
+          "originalName": "",
+          "uniqueName": "",
+          "imageData": "",
+          "type": "",
+          "size": "",
+          "path": "/src/img/meal/",
+          "uploadDate": ""
+        }
+      ]
+    }
+    
+  ]
+}

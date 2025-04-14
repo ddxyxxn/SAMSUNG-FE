@@ -1,5 +1,4 @@
 <template>
-    <Header></Header>
     <div class="form-container">
       <h1 class="form-title">회원가입</h1>
   
@@ -93,11 +92,10 @@
         color="#FE7C7C"
       />
     </div>
-</template>
+  </template>
   
-<script setup>
+  <script setup>
   import { ref, computed } from 'vue';
-  import Header from './common/Header.vue';
   import FormInput from '@/components/FormInput.vue';
   import RegistCompleteModal from '@/components/RegistCompleteModal.vue';
   
@@ -148,104 +146,104 @@
       isModalOpen.value = true
     }
   }
-</script>
+  </script>
 
 <style scoped>
-  .form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 48px 16px;
-    font-family: sans-serif;
-  }
-  .form-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 32px;
-  }
-  .form-group {
-    margin-bottom: 16px;
-  }
-  .form-label {
-    display: block;
-    margin-bottom: 6px;
-    color: #333;
-    font-weight: 500;
-  }
-  .form-input,
-  .form-select {
-    width: 100%;
-    padding: 10px 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 14px;
-  }
-  .email-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .gender-row {
-    display: flex;
-    gap: 12px;
-  }
-  .gender-btn {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    background: #fff;
-    cursor: pointer;
-  }
-  .gender-btn.active {
-    background: #28a745;
-    color: white;
-    border-color: #28a745;
-  }
-  .birth-row {
-    display: flex;
-    gap: 8px;
-  }
-  .form-actions {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 32px;
-    gap: 12px;
-  }
-  .submit-btn {
-    flex: 1;
-    padding: 12px;
-    background-color: #119160;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .cancel-btn {
-    flex: 1;
-    padding: 12px;
-    background-color: #f44336;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .match-message {
-    margin-top: 6px;
-    font-size: 14px;
-  }
-  .match-message.success {
-    color: green;
-  }
-  .match-message.error {
-    color: red;
-  }
-  .error-message {
-    color: red;
-    font-size: 13px;
-    margin-top: -10px;
-    margin-bottom: 10px;
-  }
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 48px 16px;
+  font-family: sans-serif;
+}
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+}
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.email-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.gender-row {
+  display: flex;
+  gap: 12px;
+}
+.gender-btn {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+.gender-btn.active {
+  background: #28a745;
+  color: white;
+  border-color: #28a745;
+}
+.birth-row {
+  display: flex;
+  gap: 8px;
+}
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  gap: 12px;
+}
+.submit-btn {
+  flex: 1;
+  padding: 12px;
+  background-color: #119160;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cancel-btn {
+  flex: 1;
+  padding: 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.match-message {
+  margin-top: 6px;
+  font-size: 14px;
+}
+.match-message.success {
+  color: green;
+}
+.match-message.error {
+  color: red;
+}
+.error-message {
+  color: red;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
 
 </style>
