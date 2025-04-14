@@ -18,7 +18,12 @@
     </div>
 
     <div class="board-wrapper">
-        <ServiceTable :posts="noticePosts"/>
+        <ServiceTable
+            :posts="noticePosts"
+            titleHeader="공지 제목"
+            :useLink="true"
+            linkPrefix="/noticeDetail"
+            />
     </div>
 
 </template>

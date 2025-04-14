@@ -32,12 +32,19 @@
       </div>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <Footer></Footer>
   
 </template>
 
 <script setup>
 import {ref} from 'vue';
 import Header from '@/components/common/Header.vue';
+import Footer from '@/components/common/Footer.vue';
 
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Navigation, Autoplay } from 'swiper/modules'

@@ -5,6 +5,8 @@ import '@/assets/main.css'
 import VCalendar from 'v-calendar';
 import 'v-calendar/style.css';
 import { createPinia } from 'pinia'
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
 
 const pinia = createPinia();
 
