@@ -3,43 +3,34 @@
       <Header></Header>
       <main class="main">
         <div class="image-wrapper">
-          <img
-            src="@/assets/home_img/diet_main_img.jpg"
-            alt="기본 이미지"
-            class="main-img"
-          />
-          <img
-            src="@/assets/home_img/diet_main_img_hover.png"
-            alt="호버 이미지"
-            class="hover-overlay"
-          />
+          <img src="@/assets/home_img/diet_main_img.jpg" alt="기본 이미지" class="main-img"/>
+          <img src="@/assets/home_img/diet_main_img_hover.png" alt="호버 이미지" class="hover-overlay"/>
         </div>
       </main>
 
-      <br>
-      <br>      
+      <br>    
 
-      <section class="carousel-wrapper">
-        <Carousel
-          ref = "carouselRef"
-          v-model="currentSlide"
-          :wrapAround="true"
-          :transition="500"
-          :transitionType="'fade'"
-          :mouseDrag="false"
-          :touchDrag="false"
-          class="custom-carousel"
+      <div class="swiper-wrapper">
+        <swiper
+          
+          :modules="[Navigation, Autoplay]"
+          :loop="true"
+          :autoplay="{ delay: 3000 }"
+          class="my-swiper"
+          @swiper="onSwiper"
+          @mouseenter="pauseAutoplay"
+          @mouseleave="resumeAutoplay"
         >
-          <Slide v-for="(img, index) in images" :key="index">
+          <swiper-slide v-for="(img, i) in images" :key="i">
             <img :src="img" class="slide-img" />
-          </Slide>          
-        </Carousel>
+          </swiper-slide>
+        </swiper>
 
         <div class="arrow-buttons">
-          <button @click="prevSlide">&#10094;</button>
-          <button @click="nextSlide">&#10095;</button>
+          <button @click="slidePrev">&#10094;</button>
+          <button @click="slideNext">&#10095;</button>
         </div>
-    </section>
+      </div>
     </div>
     
 </template>
@@ -51,6 +42,12 @@
   import { Carousel, Slide } from 'vue3-carousel';
   import 'vue3-carousel/dist/carousel.css'
 
+  import { Swiper, SwiperSlide } from 'swiper/vue'
+  import { Navigation, Autoplay } from 'swiper/modules'
+  import 'swiper/css'
+  import 'swiper/css/navigation'
+
+
   import img1 from '@/assets/home_img/mypage.png';
   import img2 from '@/assets/home_img/searchFood.png';
   import img3 from '@/assets/home_img/meal.png';
@@ -60,32 +57,26 @@
 
   const images = [img1, img2, img3, img4, img5, img6];
 
+  const swiperInstance = ref(null);
 
-  const currentSlide = ref(0);
-
-  let intervalId;
-
-  onMounted(() => {
-    intervalId = setInterval(() => {
-      currentSlide.value = (currentSlide.value + 1) % images.length;
-    }, 3000); // 4초마다 넘어감
-  });
-
-  onBeforeUnmount(() => {
-    clearInterval(intervalId);
-  });
-
-
-  const carouselRef = ref(null);
-
-  const prevSlide = () => {
-    currentSlide.value =
-    (currentSlide.value - 1 + images.length) % images.length;
+  const onSwiper = (swiper) => {
+    swiperInstance.value = swiper;
   };
 
-  const nextSlide = () => {
-    currentSlide.value =
-    (currentSlide.value + 1) % images.length;
+  const slidePrev = () => {
+    swiperInstance.value?.slidePrev();
+  };
+
+  const slideNext = () => {
+    swiperInstance.value?.slideNext();
+  };
+
+  const pauseAutoplay = () => {
+    swiperInstance.value?.autoplay?.stop();
+  };
+
+  const resumeAutoplay = () => {
+    swiperInstance.value?.autoplay?.start();
   };
 </script>
   
@@ -131,24 +122,21 @@
         opacity: 0.8; /* 투명도 설정 */
     }
 
-    /* .carousel-wrapper {
+    .swiper-wrapper {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;  
       margin-top: 2rem;
-    } */
-    .custom-carousel {
-      position: relative;
-      margin-top: 2rem;
-      display: flex;
-      justify-content: center;
-      height: auto;     /* 꼭 있어야 함 */
-      z-index: 2;
     }
 
-
-    .slide-img {
+    .my-swiper {
       width: 800px;
       height: 600px;
+    }
+
+    .slide-img {
+      width: 100%;
+      height: 100%;
       object-fit: contain;
     }
 

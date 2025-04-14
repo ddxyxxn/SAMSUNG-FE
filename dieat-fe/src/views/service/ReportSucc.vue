@@ -2,7 +2,7 @@
     <Header></Header>
     <div>
         <h1>신고 하기</h1>
-        <img src="@/assets/img_dy/registSuccBtn" alt="등록 완료" class="succ-btn">
+        <img src="@/assets/service_img/registSuccBtn" alt="등록 완료" class="succ-btn">
     </div>
 </template> 
 
