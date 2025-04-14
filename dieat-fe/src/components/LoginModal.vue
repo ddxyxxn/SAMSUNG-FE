@@ -1,28 +1,79 @@
 <template>
-    <div class="login-modal-overlay" v-if="show">
+  <div class="login-modal-overlay" v-if="show"  @click.self="emit('close')">
       <div class="login-modal-box">
-        <h2 class="login-title">Login</h2>
-        <input type="text" placeholder="아이디" class="login-input" v-model="id" />
-        <input type="password" placeholder="비밀번호" class="login-input" v-model="password" />
-        <button class="login-button" @click="$emit('login', { id, password })">로그인</button>
-        <img src="../img/dieat_greenLogo 1.svg" alt="logo" class="login-logo" />
-        <a class="signup-text" href="/register">Sign up</a>
+          <button class="close-button" @click="emit('close')">✕</button>
+          <img src="@/assets/login_img/Login.png" alt="Login" class="logo-title"/>
+          <!-- <h1 class="login-title">Login</h1> -->
+
+          <input type="text" placeholder="아이디" class="login-input" v-model="id" />
+          <input type="password" placeholder="비밀번호" class="login-input" v-model="password" />
+          <!-- <button class="login-button" @click="$emit('login', { id, password })">로그인</button> -->
+          <button class="login-button" @click="handleLogin">로그인</button>
+
+          <p v-if="errorMessage" class="error-text">
+              {{ errorMessage }}
+          </p>
+          <img src="@/assets/login_img/dieat_greenLogo.png" alt="logo" class="login-logo"/>
+          <a class="signup-text" href="/register">
+            Sign up
+          </a>
       </div>
-    </div>
-  </template>
-  
-  <script setup>
+  </div>
+</template>
+
+<script setup>
+  import { ref, onMounted, onBeforeUnmount } from 'vue'
+
   const props = defineProps({
-    show: Boolean
+      show: Boolean,
   })
-  const emit = defineEmits(['login'])
+  const emit = defineEmits(['login-success', 'close'])
   
-  import { ref } from 'vue'
   const id = ref('')
   const password = ref('')
-  </script>
-  
-  <style scoped>
+  const errorMessage = ref('')
+
+  const handleLogin = async () => {
+    try {
+        const res = await fetch('http://localhost:8000/user-service/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userId: id.value, userPwd: password.value })
+      })
+
+      const token = res.headers.get('Authorization')?.replace('Bearer ', '')
+      console.log('응답 상태:', res.status)
+      console.log('Authorization 헤더:', res.headers.get('Authorization'))
+
+      if (res.ok && token) {
+        localStorage.setItem('accessToken', token)
+        emit('login-success')
+        emit('close')
+      } else {
+        console.warn('토큰 없음 or 응답 비정상:', token)
+        errorMessage.value = '로그인 실패: 아이디 또는 비밀번호를 확인하세요.'
+      }
+    } catch (err) {
+      console.error('로그인 오류:', err)
+      errorMessage.value = '서버 오류가 발생했습니다.'
+    }
+    
+  }
+
+  const handleKeydown = (e) => {
+    if (e.key === 'Escape') emit('close')
+  }
+
+  onMounted(() => {
+    window.addEventListener('keydown', handleKeydown)
+  })
+
+  onBeforeUnmount(() => {
+    window.removeEventListener('keydown', handleKeydown)
+  })
+</script>
+
+<style scoped>
   .login-modal-overlay {
     position: fixed;
     inset: 0;
@@ -30,21 +81,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 5000;
   }
   .login-modal-box {
+    position: relative;
     background: #fff;
     border-radius: 16px;
     padding: 40px 30px;
-    width: 320px;
+    width: 400px;
+    height: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
-  .login-title {
-    font-size: 28px;
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
-    font-family: 'cursive';
+    cursor: pointer;
+    color: black;
+  }
+
+  .login-title {
+    display: block;
+    margin-bottom: 100px;
   }
   .login-input {
     width: 100%;
@@ -70,11 +133,20 @@
   .login-logo {
     width: 120px;
     margin-bottom: 12px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .signup-text {
     font-size: 16px;
     font-weight: bold;
     font-family: 'cursive';
   }
-  </style>
-  
+  .error-text {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+</style>
