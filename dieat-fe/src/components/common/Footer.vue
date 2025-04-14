@@ -63,8 +63,8 @@
 
 <style scoped>
 .footer {
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  background: #fff4e4;
+  color: #3c3c3c;
   padding: 3rem 2rem 1rem;
   font-size: 0.9rem;
 }
@@ -109,7 +109,8 @@
 }
 
 .footer-section a {
-  color: #fff;
+  /* color: #fff; */
+  color: #3c3c3c;
   text-decoration: none;
   opacity: 0.8;
 }
@@ -121,7 +122,7 @@
 
 .social-icons a {
   margin-right: 1rem;
-  color: #fff;
+  color: #3c3c3c;
   font-size: 1.2rem;
   opacity: 0.8;
 }
@@ -148,9 +149,10 @@
 .footer-bottom {
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: 50px;
   padding-top: 1rem;
-  border-top: 1px solid #333;
-  font-size: 0.8rem;
+  border-top: 1px solid #3c3c3c;
+  font-size: 18px;
   opacity: 0.6;
 }
 </style>

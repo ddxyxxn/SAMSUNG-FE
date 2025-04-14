@@ -84,8 +84,8 @@
   ]
   
   const menu2 = [
-    { label: '식사 조회', href: '/MealLayout' },
-    { label: '식사 등록', href: '/RegistMeal' },
+    { label: '식사 조회', href: '/meal' },
+    { label: '식사 등록', href: '/registmeal' },
     { label: '식단 게시글 조회', href: '/DietPostDetail' },
     { label: '식단 게시글 등록', href: '/registerDiet' }
   ]
@@ -93,8 +93,8 @@
   const menu3 = [
     { label: '자유 게시글 조회', href: '/readFree' },
     { label: '자유 게시글 등록', href: '/registerFree' },
-    { label: '성공기 게시글 조회', href: '/readSuccess' },
-    { label: '성공기 게시글 등록', href: '/registerSuccess' }
+    { label: '성공기 게시글 조회', href: '/SuccessLayout' },
+    { label: '성공기 게시글 등록', href: '/registerSucc' }
   ]
   
   const menu4 = [
@@ -148,6 +148,7 @@
   .menu-item {
     position: relative;
     cursor: pointer;
+    
   }
   
   .auth-nav {

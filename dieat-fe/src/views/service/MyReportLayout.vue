@@ -9,10 +9,16 @@
         <h1>나의 신고 내역</h1>
         <ReportTable/>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <Footer></Footer>
 </template>
 
 <script setup>
     import Header from '@/components/common/Header.vue';
+    import Footer from '@/components/common/Footer.vue';
     import ReportTable from './ReportTable.vue';
 
 </script>

@@ -21,18 +21,22 @@
             />
     </div>
 
-    <Pagination
-      :currentPage="currentPage"
-      :totalPages="totalPages"
-      @prev="prevPage"
-      @next="nextPage"
-    />
+    <div class="pagination">
+        <button @click="prevPage" :disabled="page === 1">&lt;</button>
+        <span>{{ page }}</span>
+        <button @click="nextPage" :disabled="page === maxPage">&gt;</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <Footer></Footer>
 </template>
 
 <script setup>
     import Header from '@/components/common/Header.vue';
+    import Footer from '@/components/common/Footer.vue';
     import ServiceTable from './ServiceTable.vue';
-    import Pagination from '@/components/common/Pagination.vue';
     import { ref, computed } from 'vue';
     import { useRouter } from 'vue-router'; // ✅ 추가
 
@@ -41,6 +45,10 @@
     const goToRegister = () => {
        router.push('/registQna')
     }
+
+    const page = ref(1)
+    const postsPerPage = 5
+
 
     const qnaPosts = ref([
         { title: '성공기 게시글 파일 등록 질문', date: '2025-04-01', count: 100 },
@@ -53,28 +61,18 @@
         { title: '환영합니다', date: '2025-03-17', count: 120 },
     ])
 
-    const itemsPerPage = 5;
-    const currentPage = ref(1);
+    const maxPage = computed(() => Math.ceil(qnaPosts.value.length / postsPerPage))
 
-    const totalPages = computed(() =>
-        Math.ceil(qnaPosts.value.length / itemsPerPage)
+    const pagedPosts = computed(() =>
+    qnaPosts.value.slice((page.value - 1) * postsPerPage, page.value * postsPerPage)
     )
 
-    const pagedPosts = computed(() => {
-        const start = (currentPage.value - 1) * itemsPerPage
-        return qnaPosts.value.slice(start, start + itemsPerPage)
-    })
-
-    const nextPage = () => {
-        if (currentPage.value < totalPages.value) {
-            currentPage.value++
-        }
+    function prevPage() {
+    if (page.value > 1) page.value--
     }
 
-    const prevPage = () => {
-        if (currentPage.value > 1) {
-            currentPage.value--
-        }
+    function nextPage() {
+    if (page.value < maxPage.value) page.value++
     }
 
 </script>
@@ -101,9 +99,7 @@
     }
 
     .regist-qna {
-        /* position: fixed; */
         display: block;
-        /* right: 500px; */
         margin-left: auto;
         margin-right: 500px;
         cursor: pointer;
@@ -127,6 +123,25 @@
         max-width: 900px;
         margin: 0 auto;
         padding: 2rem;
+    }
+
+    .pagination {
+        text-align: center;
+
+    }
+
+    .pagination button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #333;
+    }
+
+    .pagination button:disabled {
+    color: #ccc;
+    cursor: default;
     }
 
     @media (max-width: 1000px) {
