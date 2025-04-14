@@ -101,10 +101,11 @@
     }
 
     .regist-qna {
-        position: fixed;
+        /* position: fixed; */
         display: block;
-        right: 500px;
-        margin-right: auto;
+        /* right: 500px; */
+        margin-left: auto;
+        margin-right: 500px;
         cursor: pointer;
         z-index: 1000;
     }
@@ -130,7 +131,8 @@
 
     @media (max-width: 1000px) {
         .regist-qna {
-            right: 40px;
+            margin-left: auto;
+            margin-right: 60px;
         }
     }
 </style>

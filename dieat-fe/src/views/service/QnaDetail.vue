@@ -1,6 +1,6 @@
 <template>
     <Header></Header>
-    <div v-if="postId === '0'" class="-detail">
+    <div v-if="postId === '0'" class="qna-detail">
       <h1 class="title">문의 사항</h1>
   
       <button class="back-btn" @click="router.push('/qnaLayout')">
@@ -74,6 +74,7 @@
     max-width: 800px;
     margin: 3rem auto;
     padding: 1rem;
+    position: relative;
   }
   
   .title {
@@ -82,6 +83,9 @@
   }
   
   .back-btn {
+    position: absolute;
+    top: 3rem; /* 제목 위에 위치하게 */
+
     background: none;
     border: none;
     
@@ -96,9 +100,8 @@
     padding: 50px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     margin-bottom: 100px;
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
-    margin-bottom: 100px;
   }
   
   .meta-table {

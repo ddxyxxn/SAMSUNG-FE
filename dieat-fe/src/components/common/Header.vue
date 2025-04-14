@@ -100,7 +100,7 @@
   const menu4 = [
     { label: '개인 정보', href: '/userInfo' },
     { label: '포인트 적립 내역', href: '/point' },
-    { label: '북마크', href: '/category' },
+    { label: '북마크', href: '/bookmarkLayout' },
     { label: '구독 관리', href: '/subscribeMng' },
     { label: '구독 게시판', href: '/subscribePost' },
     { label: '차단', href: '/block' }
